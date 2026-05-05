@@ -27,3 +27,39 @@ After inserting your robot token, search for the following word:
 chatid_account
 ```
 And as before, wherever chatid_account is, replace it with your own chat ID account.
+
+Note: Be sure to start the robot you are building before copying the token.
+
+# How do I create a bot in bale.ai Messenger and find my account chat ID?
+To create a bot, simply enter the following bot in the Iranian messenger bale.ai:
+```
+@botfather
+```
+And the process of creating a bot in this messenger is exactly the same as Telegram and needs no explanation.
+
+To get your account chat ID, just start the following bot:
+```
+@userinfo_idbot
+```
+And bring your chat account ID.
+
+# What if I wasn't from Iran and didn't have access to the Iranian messenger bale.ai?
+Just open the app source with APK Editor and search for this word :
+```
+https://tapi.bale.ai/bot
+```
+Wherever you see https://tapi.bale.ai/bot, change it to this address:
+```
+https://api.telegram.org/bot
+```
+And follow exactly the same steps as before in Telegram, except that you create a bot inside it and put your Telegram account chat ID along with your bot token in the program.
+
+# last word
+Do not use this program in a bad way. Any misuse of this program has nothing to do with me and all the consequences are related to the person who misused this tool. My goal was only for people to become familiar with such tools and their structure. Thank you.
+
+# Creator
+An 18-year Iranian guy who loves the world of hacking, cybersecurity, and computer science (:
+
+
+
+
