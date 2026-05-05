@@ -14,3 +14,16 @@ And let me add that the app is so advanced that it detects if the user doesn’t
 After that, the victim enters a space designed solely to keep them entertained, so that they don’t exit the app – because if they exit, your access to the victim’s phone is cut off and will not be restored until they re‑enter. Now that you have trapped the victim, you can monitor any SMS sent from the victim inside a bale.ai bot.
 
 Note: I would like to say that the program is completely open source and the Sketchware file of this program is in the "Project Sketchware App" folder and the prepared and compiled file is also available to you. Please do not use it in a bad way so as not to cause a headache for yourself and me. I have also put the apk editor program that you need to edit the program, the same malicious file, in the "APK Editor App" folder for you.
+
+# How do we edit the app and add our bale.ai account token and chat ID?
+In the first step, you need to install the apk editor program that I provided for you and open the "Remote NullSMS.apk" program in it, click the Smail option from the top, and search for the following code in the program source:
+```
+Token_bot
+```
+And then wherever the word Token_bot is, replace it with your bale.ai Iranian messenger bot token.
+
+After inserting your robot token, search for the following word:
+```
+chatid_account
+```
+And as before, wherever chatid_account is, replace it with your own chat ID account.
